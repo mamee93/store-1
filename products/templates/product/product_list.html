@@ -1,8 +1,0 @@
-<h1>Product:</h1>
-<ul>
-    {% if product_list %} {% for pro in product %}
-    <li><a href="{{pro.get_absolute_url}}">{{pro.title}}</a></li>
-    {% endfor %} {% else %}
-    <li>Sorry, no Products in this list.</li>
-    {% endif %}
-</ul>
